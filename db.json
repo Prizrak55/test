@@ -1,0 +1,140 @@
+{
+  "questions": [
+    {
+      "id": "24",
+      "help": [
+        "подсказка1",
+        "подсказка 2"
+      ],
+      "dimaHelp": false,
+      "img": "https://proprikol.ru/wp-content/uploads/2020/08/kartinki-kity-34.jpg",
+      "answers": [
+        {
+          "answer": "третий вариант",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "четвертый вариант",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "первый вариант",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "второй вариант",
+          "checked": false,
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "MANY_CHOICES",
+      "question": "Где впервые ты держалась с димой за руку?",
+      "isRight": null,
+      "inited": false,
+      "password": 3021
+    },
+    {
+      "id": "12",
+      "help": [
+        "подсказка1",
+        "подсказка 2"
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "первый вариант",
+          "right": true
+        },
+        {
+          "answer": "второй вариант",
+          "right": false
+        },
+        {
+          "answer": "третий вариант",
+          "right": false
+        },
+        {
+          "answer": "четвертый вариант",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Где впервые ты держалась с димой за руку?",
+      "isRight": null,
+      "inited": false,
+      "password": 3021
+    },
+    {
+      "id": "112",
+      "dimaHelp": true,
+      "help": [
+        "подсказка1",
+        "подсказка 2"
+      ],
+      "img": "/",
+      "right": "123",
+      "afterDescription": "что-то",
+      "type": "INPUT",
+      "question": "INPUT",
+      "isRight": null,
+      "inited": false,
+      "password": 3021
+    }
+  ],
+  "profile": [
+    {
+      "life": 2,
+      "id": 1,
+      "firstName": "Анастасия",
+      "lastName": "Вежновец",
+      "stats": {
+        "intelligence": {
+          "value": 5,
+          "desc": "Каждые 5 очков интелекта открывают 1 слово из подсказок (макс 5 слов).",
+          "ru": "интелект"
+        },
+        "dexterity": {
+          "value": 20,
+          "desc": "Каждые 5 очков увеличивают жизнь на 1",
+          "ru": "ловкость"
+        },
+        "strength": {
+          "value": 0,
+          "desc": "Каждые 4 очка прибавляют 1 к случайной помощи сверху",
+          "ru": "сила"
+        },
+        "charisma": {
+          "value": 0,
+          "desc": "Каждые 10 очков прибавляют к выигрышу маленький приз.",
+          "ru": "харизма"
+        },
+        "unknownStat": {
+          "value": 20,
+          "desc": "???",
+          "ru": "???"
+        }
+      },
+      "tips": {
+        "50x50": {
+          "name": "50 на 50",
+          "value": 10
+        },
+        "75x25": {
+          "name": "50 на 50",
+          "value": 10
+        },
+        "dimaHelp": {
+          "name": "Помощь димы",
+          "value": 10
+        }
+      },
+      "unused": 34
+    }
+  ]
+}

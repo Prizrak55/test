@@ -1,0 +1,1 @@
+export {fetchQuestionById} from './model/service'
