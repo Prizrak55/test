@@ -1,44 +1,529 @@
 {
   "questions": [
     {
-      "id": "24",
+      "id": "15",
       "help": [
-        "подсказка1",
-        "подсказка 2"
+        "Рядом с Кузнецовой",
+        "На пушкина",
+        "",
+        "",
+        ""
       ],
+      "img": "/",
       "dimaHelp": false,
-      "img": "https://proprikol.ru/wp-content/uploads/2020/08/kartinki-kity-34.jpg",
       "answers": [
         {
-          "answer": "третий вариант",
-          "checked": false,
-          "right": false
-        },
-        {
-          "answer": "четвертый вариант",
-          "checked": false,
-          "right": false
-        },
-        {
-          "answer": "первый вариант",
-          "checked": false,
+          "answer": "Почтовая",
           "right": true
         },
         {
-          "answer": "второй вариант",
-          "checked": false,
-          "right": true
+          "answer": "Революционная",
+          "right": false
+        },
+        {
+          "answer": "Жарова",
+          "right": false
+        },
+        {
+          "answer": "Кузнецова",
+          "right": false
         }
       ],
       "afterDescription": "что-то",
-      "type": "MANY_CHOICES",
+      "type": "CLASSIC",
       "question": "Где впервые ты держалась с димой за руку?",
       "isRight": null,
       "inited": false,
       "password": 3021
     },
     {
-      "id": "12",
+      "id": "16",
+      "help": [
+        "Первая остановка",
+        "На поезде",
+        "В москву",
+        "",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Сочи",
+          "right": false
+        },
+        {
+          "answer": "Москва",
+          "right": true
+        },
+        {
+          "answer": "Ярославль",
+          "right": false
+        },
+        {
+          "answer": "Шуя",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "В каком первом городе мы побывали вместе?",
+      "isRight": null,
+      "inited": false,
+      "password": 3021
+    },
+    {
+      "id": "17",
+      "help": [
+        "Еда",
+        "Что можно съесть",
+        "Но",
+        "Не пить",
+        ""
+      ],
+      "dimaHelp": false,
+      "img": "/",
+      "answers": [
+        {
+          "answer": "Кальмарчики",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Сок малиновый",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "Липтон",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Яичницу с сосисочками",
+          "checked": false,
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "MANY_CHOICES",
+      "question": "Выбери еду, которую дима легко съест.",
+      "isRight": null,
+      "inited": false,
+      "password": 2021
+    },
+    {
+      "id": "18",
+      "help": [
+        "Первая остановка",
+        "На поезде",
+        "В москву",
+        "",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Без покрытия",
+          "right": false
+        },
+        {
+          "answer": "Беспорядочное падение",
+          "right": false
+        },
+        {
+          "answer": "Блок питания",
+          "right": true
+        },
+        {
+          "answer": "Боевые подруги",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "БП на языке Димы - это?",
+      "isRight": null,
+      "inited": false,
+      "password": 1234
+    },
+    {
+      "id": "19",
+      "dimaHelp": true,
+      "help": [
+        "Начинается на",
+        "Ч",
+        "заканчивается",
+        "А",
+        ""
+      ],
+      "img": "/",
+      "right": "Чита",
+      "afterDescription": "что-то",
+      "type": "INPUT",
+      "question": "Имя первой собаки Димы.(С большой буквы)",
+      "isRight": null,
+      "inited": false,
+      "password": 99999
+    },
+    {
+      "id": "19",
+      "help": [
+        "Тут изи",
+        "Тут изи",
+        "Тут изи",
+        "",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Половой орган",
+          "right": false
+        },
+        {
+          "answer": "Печень",
+          "right": false
+        },
+        {
+          "answer": "Легкие",
+          "right": false
+        },
+        {
+          "answer": "Глаза",
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Какой человеческий орган при возбуждении увеличивается в 10 раз?",
+      "isRight": null,
+      "inited": false,
+      "password": 7654
+    },
+    {
+      "id": "20",
+      "help": [
+        "Погуглить бы",
+        "Хитрая загадка",
+        "Дело в названиях",
+        "Магазин?",
+        ""
+      ],
+      "dimaHelp": false,
+      "img": "/",
+      "answers": [
+        {
+          "answer": "Исаак Ньютон",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "Мона Лиза",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Иоганн Гутенберг",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "Шекспир",
+          "checked": false,
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "MANY_CHOICES",
+      "question": "В Иваново есть: ",
+      "isRight": null,
+      "inited": false,
+      "password": 1
+    },
+    {
+      "id": "21",
+      "help": [
+        "Тут изи",
+        "Тут изи",
+        "Тут изи",
+        "",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Смеется",
+          "right": true
+        },
+        {
+          "answer": "Кривляется",
+          "right": false
+        },
+        {
+          "answer": "Грустит",
+          "right": false
+        },
+        {
+          "answer": "Ничего не делает",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Фотографии где Настя *** дима любит(как-то все, но тут надо выбрать)",
+      "isRight": null,
+      "inited": false,
+      "password": 3221
+    },
+    {
+      "id": "22",
+      "help": [
+        "Ray",
+        "Tracing",
+        "Texel",
+        "",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "TRX",
+          "right": false
+        },
+        {
+          "answer": "GTX",
+          "right": false
+        },
+        {
+          "answer": "RTX",
+          "right": true
+        },
+        {
+          "answer": "RTL",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "*** 4090",
+      "isRight": null,
+      "inited": false,
+      "password": 1466
+    },
+    {
+      "id": "23",
+      "help": [
+        "Бульдог",
+        "В конуре",
+        "Тусовался",
+        "Не Рекс",
+        "Не Томас"
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Рекс",
+          "right": false
+        },
+        {
+          "answer": "Томас",
+          "right": false
+        },
+        {
+          "answer": "Спайк",
+          "right": true
+        },
+        {
+          "answer": "Ретч",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Как зовут собаку в сериале «Том и Джерри»?",
+      "isRight": null,
+      "inited": false,
+      "password": 9090
+    },
+    {
+      "id": "24",
+      "help": [
+        "Красавица и чудовище",
+        "фильм",
+        "Бемби",
+        "Да",
+        ""
+      ],
+      "dimaHelp": false,
+      "img": "/",
+      "answers": [
+        {
+          "answer": "Красавица и чудовище",
+          "checked": false,
+          "right": false
+        },
+        {
+          "answer": "Лило и Стич",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Могила светлячков",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Бемби",
+          "checked": false,
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "MANY_CHOICES",
+      "question": "Какие мультфильмы мы смотрели вместе",
+      "isRight": null,
+      "inited": false,
+      "password": 607
+    },
+    {
+      "id": "25",
+      "dimaHelp": true,
+      "help": [
+        "Между",
+        "20 и 30",
+        "22 и 28",
+        "24 и 27",
+        "24 и 26"
+      ],
+      "img": "/",
+      "right": "25",
+      "afterDescription": "что-то",
+      "type": "INPUT",
+      "question": "Напиши число, когда празднуют Рождество Христово",
+      "isRight": null,
+      "inited": false,
+      "password": 111
+    },
+    {
+      "id": "26",
+      "help": [
+        "Яичница?",
+        "Нет нет",
+        "А вот",
+        "Недавно мне понравилось",
+        "И я сказал"
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "Яичница",
+          "right": false
+        },
+        {
+          "answer": "Яичница с сосиками",
+          "right": false
+        },
+        {
+          "answer": "Кальмарчики",
+          "right": false
+        },
+        {
+          "answer": "Сырники",
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Самая вкусная еда на утро у Димы",
+      "isRight": null,
+      "inited": false,
+      "password": 3
+    },
+    {
+      "id": "27",
+      "help": [
+        "Тыкай все",
+        "Тыкай все",
+        "Тыкай все",
+        "Тыкай все",
+        "Тыкай все"
+      ],
+      "dimaHelp": false,
+      "img": "/",
+      "answers": [
+        {
+          "answer": "Буду помогать Диме",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Любить его всю жизнь",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Смеяться над его шутками",
+          "checked": false,
+          "right": true
+        },
+        {
+          "answer": "Грустить по нему",
+          "checked": false,
+          "right": true
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "MANY_CHOICES",
+      "question": "Я, Анастасия Вежновец, подтверждаю, что:",
+      "isRight": null,
+      "inited": false,
+      "password": 84
+    },
+    {
+      "id": "28",
+      "help": [
+        "В телеге",
+        "Поищи",
+        "Рядом с предложением:",
+        "Так наша другая преподавательница сказала",
+        ""
+      ],
+      "img": "/",
+      "dimaHelp": false,
+      "answers": [
+        {
+          "answer": "abu",
+          "right": true
+        },
+        {
+          "answer": "Ага",
+          "right": false
+        },
+        {
+          "answer": "gjr",
+          "right": false
+        },
+        {
+          "answer": "покушала хоть",
+          "right": false
+        }
+      ],
+      "afterDescription": "что-то",
+      "type": "CLASSIC",
+      "question": "Что написал Дима 22 ноября в 14:56?",
+      "isRight": null,
+      "inited": false,
+      "password": 32
+    },
+    {
+      "id": "12", 
       "help": [
         "подсказка1",
         "подсказка 2"
